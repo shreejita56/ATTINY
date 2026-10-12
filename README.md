@@ -1,4 +1,6 @@
 # ATTINY
+<img width="1090" height="647" alt="Screenshot 2026-10-10 191539" src="https://github.com/user-attachments/assets/ea32b5a5-e9a6-4472-8c0d-558392929f07" />
+
 I made a small devboard based on Atinny1616-S .It has inbuild 3.3V voltage regulator and a USB-to-UART serial convertor  .Power and data comes from USB-C . The board has an inbuilt LED. and has 8 pin outlet in which 1 is gnd,  1 is power and another 6 are general out pin pins connected to the MCU. The Devboard was designed on kicad . 
 
 
