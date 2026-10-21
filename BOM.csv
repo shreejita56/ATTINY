@@ -4,14 +4,13 @@ C3,100nF,20,0.088,https://jlcpcb.com/partdetail/50070-CL03A104KP3NNNC/C49062
 C5,0.1uF,4,0.5116,https://jlcpcb.com/partdetail/VishayIntertech-K104K10X7RF5UH5/C2979769
 D1,LED,10,0.69,https://jlcpcb.com/partdetail/XINGLIGHT-XL0201SURC/C3646923
 "R1,R2",5.1k,4,1.1512,https://jlcpcb.com/partdetail/VishayIntertech-MBA02040C5101FC100/C1366782
-R3,1k,4,1.6088,https://jlcpcb.com/partdetail/VishayIntertech-MBA02040C1001FC100/C1364628
-R4,1K,20,0.024,https://jlcpcb.com/partdetail/SAE-1RC0201J0102/C54530604
+"R3,R4",1k,24,1.6328,https://jlcpcb.com/partdetail/VishayIntertech-MBA02040C1001FC100/C1364628 ; https://jlcpcb.com/partdetail/SAE-1RC0201J0102/C54530604
 U1,XC6206PxxxMR,3,0.2454,https://jlcpcb.com/partdetail/148017-K2_1103DP_Q4SW04/C136701
 U2,ATtiny1616-S,2,5.3754,https://jlcpcb.com/partdetail/MicrochipTech-ATTINY1616SN/C614136
 U3,CH340X,2,1.3668,https://jlcpcb.com/partdetail/WCH_Jiangsu_Qin_Heng-CH340X/C3035748
-Component Total,,,13.49,
-Set UP,,,25.0,
-Loader/Assembly/Setup Fee,,,12.57,
-PCB,,,4.00,
-Shipping,,,11.17,
-Grand Total,,,66.23,
+,Component Total,,13.49,
+,Set UP,,25.0,
+,Loader/Assembly/Setup Fee,,12.57,
+,PCB,,4.0,
+,Shipping,,11.17,
+,Grand Total,,66.23,
