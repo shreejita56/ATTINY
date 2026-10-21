@@ -3490,7 +3490,7 @@
 			(uuid "8262d517-8922-4a2c-97a5-8221d4a8d87c")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "C1")
 					(unit 1)
@@ -3568,7 +3568,7 @@
 			(uuid "0d07bf87-bbe2-4610-a4c4-9e46345cc06d")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR01")
 					(unit 1)
@@ -3607,7 +3607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 92.71 71.882 90)
 			(hide yes)
 			(show_name no)
@@ -3647,7 +3647,7 @@
 			(uuid "cb948e2d-3855-4d8c-8929-2acac8378238")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "R4")
 					(unit 1)
@@ -3739,7 +3739,7 @@
 			(uuid "28ada1d2-2b2f-4320-9dc0-15b56c039210")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "C3")
 					(unit 1)
@@ -3837,7 +3837,7 @@
 			(uuid "490adf36-1a07-477f-a327-caf3fe2facb0")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "J10")
 					(unit 1)
@@ -3915,7 +3915,7 @@
 			(uuid "976d96b3-4303-4276-8e3b-657c4d2d4f14")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR09")
 					(unit 1)
@@ -3954,7 +3954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 59.69 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -4005,7 +4005,7 @@
 			(uuid "26a69b23-ab6d-4f56-b1fd-2e68c5aa3360")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "R2")
 					(unit 1)
@@ -4097,7 +4097,7 @@
 			(uuid "bea83381-ae7f-44cc-8c11-a4e40b2a3147")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "C5")
 					(unit 1)
@@ -4192,7 +4192,7 @@
 			(uuid "0836cc2d-15a4-423c-bcb4-2adb890457ea")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "U1")
 					(unit 1)
@@ -4328,7 +4328,7 @@
 			(uuid "2434f419-6263-48fa-b5a7-087c46be9788")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "J1")
 					(unit 1)
@@ -4369,7 +4369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 59.69 44.958 90)
 			(hide yes)
 			(show_name no)
@@ -4420,7 +4420,7 @@
 			(uuid "bfb9e5e6-c0db-4d87-8424-6f36c41441ce")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "R1")
 					(unit 1)
@@ -4498,7 +4498,7 @@
 			(uuid "71918e21-39e5-4364-a342-7aee019ec070")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR07")
 					(unit 1)
@@ -4537,7 +4537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 66.04 104.648 90)
 			(hide yes)
 			(show_name no)
@@ -4588,7 +4588,7 @@
 			(uuid "fcd7e925-37dd-496e-b1d1-c3e9eef229ee")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "R3")
 					(unit 1)
@@ -4667,7 +4667,7 @@
 			(uuid "0b747ec8-225b-497a-b26c-f1c97f9ca5ce")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR027")
 					(unit 1)
@@ -4760,7 +4760,7 @@
 			(uuid "e94944cd-b0f0-4449-b905-2dc96db75a7e")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "C2")
 					(unit 1)
@@ -4838,7 +4838,7 @@
 			(uuid "d0e125a2-ce31-4c94-a287-229367382ce3")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR012")
 					(unit 1)
@@ -4956,7 +4956,7 @@
 			(uuid "a28e8388-2b45-4c0b-8a87-2883d3749496")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "U3")
 					(unit 1)
@@ -5034,7 +5034,7 @@
 			(uuid "22e3f3e6-db37-4bbc-a180-35de7d9eeeb0")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR08")
 					(unit 1)
@@ -5112,7 +5112,7 @@
 			(uuid "d77ccc64-9d7d-48e4-a2bb-51de6d756ade")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR024")
 					(unit 1)
@@ -5189,7 +5189,7 @@
 			(uuid "45f281b7-d4aa-4cec-92bd-0fc59671fa7e")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR010")
 					(unit 1)
@@ -5267,7 +5267,7 @@
 			(uuid "9ecaa134-603e-40dd-9efc-e52c7e204f85")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR011")
 					(unit 1)
@@ -5345,7 +5345,7 @@
 			(uuid "495526b2-eb5d-42f6-90e7-a0ccb759c0d9")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR013")
 					(unit 1)
@@ -5424,7 +5424,7 @@
 			(uuid "29ccb529-2b23-426d-99a6-c715f953f83b")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR026")
 					(unit 1)
@@ -5502,7 +5502,7 @@
 			(uuid "636740bd-fbd4-4b70-a703-a2d024b82fd9")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR02")
 					(unit 1)
@@ -5579,7 +5579,7 @@
 			(uuid "d4150177-0b8b-47b0-9b1d-cece41bd2d39")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR014")
 					(unit 1)
@@ -5657,7 +5657,7 @@
 			(uuid "d5733dc5-72f2-4236-9c65-ea8aba6b3c7c")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR022")
 					(unit 1)
@@ -5735,7 +5735,7 @@
 			(uuid "46cc18f4-290a-45d3-b23e-343a7d0be219")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR05")
 					(unit 1)
@@ -5812,7 +5812,7 @@
 			(uuid "3f0125ed-83f6-4d63-86f7-ffc13911ebb0")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR04")
 					(unit 1)
@@ -5890,7 +5890,7 @@
 			(uuid "b31a8acb-1068-40a3-b948-35f25ed60a8f")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR021")
 					(unit 1)
@@ -6038,7 +6038,7 @@
 			(uuid "65e32dbf-cebb-47af-9f69-b392cd89e217")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "U2")
 					(unit 1)
@@ -6117,7 +6117,7 @@
 			(uuid "e6aedebf-70a1-4f93-8ff8-727e0cd1ecee")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR03")
 					(unit 1)
@@ -6196,7 +6196,7 @@
 			(uuid "b42076e0-b193-4017-a7e5-3fed54407382")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR016")
 					(unit 1)
@@ -6286,7 +6286,7 @@
 			(uuid "5f0205ef-cad9-46c1-ad5d-242b47059c14")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "D1")
 					(unit 1)
@@ -6378,7 +6378,7 @@
 			(uuid "8d906cb8-6700-4c37-acf1-06445ec158a4")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "C4")
 					(unit 1)
@@ -6456,7 +6456,7 @@
 			(uuid "2b6dda32-5901-4159-9a26-9c66ec9f50d0")
 		)
 		(instances
-			(project "resolution_w7"
+			(project "ATTiny1616-S"
 				(path "/ee73a050-21e3-4389-9e79-fb5dbee0e802"
 					(reference "#PWR06")
 					(unit 1)

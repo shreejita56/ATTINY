@@ -153,7 +153,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3bd4ca72-7bc8-46f2-a51c-dae0383dbea8")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -770,7 +770,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/6238c699-8c23-4ffb-a4de-ad044de1c88c")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1248,7 +1248,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2f2646b8-605b-4c9c-bbe7-333bc515cd85")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1421,7 +1421,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f3fe5537-f006-4c3d-b99e-ab079b4f2770")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1594,7 +1594,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/15aa636f-350b-43d1-a341-5e8defe84ea9")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1767,7 +1767,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ee10526a-20d2-49ce-a0d6-fc11db8e1c21")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1973,7 +1973,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/456fc10f-c9a1-480b-89c4-569c31f85adf")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2061,20 +2061,20 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0201_0603Metric"
+	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "3d76d58a-6e6f-437e-bc41-4579cf036c0a")
 		(at 166.98 72.825 -90)
-		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
-		(tags "capacitor")
+		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "resistor")
 		(property "Reference" "R1"
-			(at -0.11 -0.65 90)
+			(at 0 1.05 90)
 			(layer "B.SilkS")
 			(uuid "b3dfa41e-d68f-4beb-9b57-83c1e70ee4b3")
 			(effects
 				(font
-					(size 0.3 0.3)
-					(thickness 0.075)
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2082,7 +2082,6 @@
 		(property "Value" "5.1k"
 			(at 0 -1.05 90)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "e72fd829-fa6a-482c-a17d-7f86d34ff03b")
 			(effects
 				(font
@@ -2134,7 +2133,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3933d008-ed04-4682-be38-45b7a8a6de83")
+			(uuid "8c3784c7-8f1b-4e76-9e1f-65f12b93c525")
 			(effects
 				(font
 					(size 1 1)
@@ -2146,7 +2145,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/679890db-f572-4861-b278-b11b0ebc5e3d")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2178,7 +2177,7 @@
 			(uuid "45be8eee-0052-4844-a620-85f7460fea51")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.125 -0.63 90)
+			(at 0 0.68 90)
 			(layer "B.Fab")
 			(uuid "b2501d82-1811-45c6-86f8-c2b71a3bcd15")
 			(effects
@@ -2222,7 +2221,7 @@
 			(uuid "06be678a-a472-4a6a-8410-9a56ddb25ee7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2303,7 +2302,7 @@
 		(property ki_fp_filters "SOIC*7.5x12.8mm*P1.27mm*")
 		(path "/e0a469a8-888c-4cbc-9eb8-e4c6d5a2c5ec")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2643,20 +2642,20 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0201_0603Metric"
+	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "6a16418e-043f-4ca3-98a9-92c777f0336e")
 		(at 166.94 76.88 90)
-		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
-		(tags "capacitor")
+		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0.02 0.79 270)
+			(at 0 1.05 270)
 			(layer "B.SilkS")
 			(uuid "56d04105-f89d-4cc5-b3a2-915bd4838811")
 			(effects
 				(font
-					(size 0.3 0.3)
-					(thickness 0.075)
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2715,7 +2714,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "177d8d8d-9d5f-4ce8-9ad0-a8b4a0684250")
+			(uuid "705652cd-6203-4682-b2e4-3f4f653d1952")
 			(effects
 				(font
 					(size 1 1)
@@ -2727,7 +2726,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6fbcf2b6-11ed-4299-bd5a-cee6888430c8")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2803,7 +2802,7 @@
 			(uuid "4ece6594-d5d2-4daf-a8c8-20817fef4c50")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2815,20 +2814,20 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0201_0603Metric"
+	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "aae00151-7f7f-40d5-9f85-d67497ed6dcf")
 		(at 168.64 55.6 180)
-		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
-		(tags "capacitor")
+		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0.005 0.71 0)
+			(at 0 1.05 0)
 			(layer "B.SilkS")
 			(uuid "82de9a14-aebc-438e-92cd-cad00400dc75")
 			(effects
 				(font
-					(size 0.3 0.3)
-					(thickness 0.075)
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2836,7 +2835,6 @@
 		(property "Value" "1K"
 			(at 0 -1.05 0)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "b23992d2-61cd-4b66-bc03-fad41d8745a3")
 			(effects
 				(font
@@ -2886,7 +2884,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1cb3496f-6a4b-47e9-a31e-6804c124fe9f")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2962,7 +2960,7 @@
 			(uuid "866573f5-8b1b-428f-9ac0-b8e38669fe0f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2974,20 +2972,20 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0201_0603Metric"
+	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "aea06b9f-0adf-4a27-8f39-bc1e9909cc00")
 		(at 160.76 70.86 180)
-		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
-		(tags "capacitor")
+		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "resistor")
 		(property "Reference" "R2"
-			(at 1.12 -0.06 0)
+			(at 0 1.05 0)
 			(layer "B.SilkS")
 			(uuid "984e7726-1159-4b6f-9c6e-f08b96dbb311")
 			(effects
 				(font
-					(size 0.3 0.3)
-					(thickness 0.075)
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2995,7 +2993,6 @@
 		(property "Value" "5.1k"
 			(at 0 -1.05 0)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "790f17d6-8f14-4374-abf8-6015657d2ccc")
 			(effects
 				(font
@@ -3047,7 +3044,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b84e2f95-a72d-48b7-8875-121dea480eea")
+			(uuid "89d54167-0df2-4c2f-ab8c-630c151fbec1")
 			(effects
 				(font
 					(size 1 1)
@@ -3059,7 +3056,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/441aa675-8746-43f5-9692-061da621453c")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3089,6 +3086,18 @@
 			(fill no)
 			(layer "B.Fab")
 			(uuid "e4200fa5-086e-45cf-874a-3688ae317224")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.68 0)
+			(layer "B.Fab")
+			(uuid "51953802-6ca7-469c-9ee3-74f8ff8dd76a")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+				(justify mirror)
+			)
 		)
 		(pad "" smd roundrect
 			(at -0.345 0 180)
@@ -3123,7 +3132,7 @@
 			(uuid "df09aa93-663b-493e-ae99-ce0e00fa2408")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3220,7 +3229,7 @@
 		(property ki_fp_filters "SOT?23?3*")
 		(path "/4a7f864b-e92c-44c8-9b2a-4ef7b0b7fdfe")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3623,7 +3632,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7a960d9e-d012-4f99-a4f5-f369bb56e673")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3796,7 +3805,7 @@
 		(property ki_fp_filters "MSOP*3x3mm*P0.5mm*")
 		(path "/91c2fd6c-3471-4ecd-812e-847c8ca2e79e")
 		(sheetname "/")
-		(sheetfile "resolution_w7.kicad_sch")
+		(sheetfile "ATTiny1616-S.kicad_sch")
 		(units
 			(unit
 				(name "A")
