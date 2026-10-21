@@ -11,31 +11,24 @@ I made a small devboard based on Atinny1616-S .It has inbuild 3.3V voltage regul
 - has 8 outlet pins (6 connected to MCU ,1 GND ,1 Power)
 
 
-## Bill of Materials (BOM)
+## BOM
 
-| **Designation** | **Comment** | **Quantity** | **Price  ($)** | **Link** |
-| :-------------- | :---------- | :----------- | ------------: | :------ |
-| C1, C2, C4 | 1uF | 6 | 2.43 | [JLCPCB](https://jlcpcb.com/partdetail/1710977-RDER71H105K2M1H03A/C1620132) |
-| C3 | 100nF | 20 | 0.088 | [JLCPCB](https://jlcpcb.com/partdetail/50070-CL03A104KP3NNNC/C49062) |
-| C5 | 0.1uF | 4 | 0.5116 | [JLCPCB](https://jlcpcb.com/partdetail/VishayIntertech-K104K10X7RF5UH5/C2979769) |
-| D1 | LED | 10 | 0.69 | [JLCPCB](https://jlcpcb.com/partdetail/XINGLIGHT-XL0201SURC/C3646923) |
-| R1, R2 | 5.1k | 4 | 1.1512 | [JLCPCB](https://jlcpcb.com/partdetail/VishayIntertech-MBA02040C5101FC100/C1366782) |
-| R3 | 1k | 4 | 1.6088 | [JLCPCB](https://jlcpcb.com/partdetail/VishayIntertech-MBA02040C1001FC100/C1364628) |
-| R4 | 1K | 20 | 0.024 | [JLCPCB](https://jlcpcb.com/partdetail/SAE-1RC0201J0102/C54530604) |
-| U1 | XC6206PxxxMR | 3 | 0.2454 | [JLCPCB](https://jlcpcb.com/partdetail/148017-K2_1103DP_Q4SW04/C136701) |
+| **Designation** | **Comment** | **Quantity** | **Price ($)** | **Link** |
+| :-------------- | :---------- | :----------- | :------------ | :------- |
+| C1, C2, C4 | 1uF | 6 | 0.1326 | [JLCPCB](https://jlcpcb.com/partdetail/54083-CL03A105MQ3CSNH/C53067) |
+| C3, C5 | 100nF (0.1uF) | 4 | 0.1760 | [JLCPCB](https://jlcpcb.com/partdetail/50070-CL03A104KP3NNNC/C49062) |
+| D1 | LED | 2 | 0.6900 | [JLCPCB](https://jlcpcb.com/partdetail/XINGLIGHT-XL0201SURC/C3646923) |
+| R1, R2 | 5.1k | 4 | 0.0740 | [JLCPCB](https://jlcpcb.com/partdetail/LIZElec-CR0201FH5101G/C100142) |
+| R3, R4 | 1k | 4 | 0.1520 | [JLCPCB](https://jlcpcb.com/partdetail/LIZElec-CR0201FH1001G/C100125) |
+| U1 | XC6206PxxxMR | 2 | 0.7850 | [JLCPCB](https://jlcpcb.com/partdetail/TorexSemicon-XC6206P252MR/C15906) |
 | U2 | ATtiny1616-S | 2 | 5.3754 | [JLCPCB](https://jlcpcb.com/partdetail/MicrochipTech-ATTINY1616SN/C614136) |
 | U3 | CH340X | 2 | 1.3668 | [JLCPCB](https://jlcpcb.com/partdetail/WCH_Jiangsu_Qin_Heng-CH340X/C3035748) |
-
-### Cost Summary
-
-| **Item** | **Price ($)** |
-| :------- | ------------: |
-| Component Total | 13.49 |
-| Setup Fee | 25.00 |
-| Loader / Assembly / Setup Fee | 12.57 |
-| PCB | 4.00 |
-| Shipping | 11.17 |
-| **Grand Total** | **66.23** |
+| | **Component Total** | | **8.7518** | |
+| | Setup | | 25.00 | |
+| | Loader/Assembly/Setup Fee | | 12.57 | |
+| | PCB | | 4.00 | |
+| | Shipping | | 11.17 | |
+| | **Grand Total** | | **61.4918** | |
 
 ## Schematics
 
